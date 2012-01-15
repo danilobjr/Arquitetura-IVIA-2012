@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="9b66b9a4-8905-4a81-90a9-793755438681" name="Junior@NOTEBOOK 2012-01-13 22:30:51" runUser="Notebook\Junior" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="903c2975-19eb-4005-b9bb-37cf8b14a64f">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Junior_NOTEBOOK 2012-01-13 22_30_51">
+      <DeploymentItem filename="E:\Junior\IVIA\Dojo\TestabilityEF4\packages\EntityFramework.4.2.0.0\lib\net40\EntityFramework.dll" />
+      <DeploymentItem filename="E:\Junior\IVIA\Dojo\TestabilityEF4\Dominio\bin\Debug\Dominio.dll" />
+      <DeploymentItem filename="E:\Junior\IVIA\Dojo\TestabilityEF4\IVIA.Comum\bin\Debug\RedeInova.Comum.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-01-13T22:30:51.9875156-02:00" queuing="2012-01-13T22:30:55.7677318-02:00" start="2012-01-13T22:30:56.2317583-02:00" finish="2012-01-13T22:31:34.2189311-02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="3" executed="3" error="0" failed="3" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Seu_Email_Deve_Ser_Unico" storage="e:\junior\ivia\dojo\testabilityef4\dominio.tests\bin\debug\dominio.tests.dll" id="13aed554-06ec-83fb-856d-36601abacd57">
+      <Execution id="22342e57-6988-46dd-a17f-1d6e5f62601f" />
+      <TestMethod codeBase="E:/Junior/IVIA/Dojo/TestabilityEF4/Dominio.Tests/bin/Debug/Dominio.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Dominio.Tests.Ao_Criar_Um_Usuario, Dominio.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Seu_Email_Deve_Ser_Unico" />
+    </UnitTest>
+    <UnitTest name="Nome_Senha_Email_Sao_Obrigatorios" storage="e:\junior\ivia\dojo\testabilityef4\dominio.tests\bin\debug\dominio.tests.dll" id="fa401ce8-e7a3-23f6-bacd-fe17daa6c174">
+      <Execution id="dc8064aa-6a0d-4a16-b783-49a7cbbd5f82" />
+      <TestMethod codeBase="E:/Junior/IVIA/Dojo/TestabilityEF4/Dominio.Tests/bin/Debug/Dominio.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Dominio.Tests.Ao_Criar_Um_Usuario, Dominio.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Nome_Senha_Email_Sao_Obrigatorios" />
+    </UnitTest>
+    <UnitTest name="Seu_Email_Deve_Estar_Em_Formato_Valido" storage="e:\junior\ivia\dojo\testabilityef4\dominio.tests\bin\debug\dominio.tests.dll" id="b132a76c-ea09-055d-9f92-c68a3d36e13b">
+      <Execution id="61ccd372-49a1-4fd6-b9fd-5e339fc0d502" />
+      <TestMethod codeBase="E:/Junior/IVIA/Dojo/TestabilityEF4/Dominio.Tests/bin/Debug/Dominio.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Dominio.Tests.Ao_Criar_Um_Usuario, Dominio.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Seu_Email_Deve_Estar_Em_Formato_Valido" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="13aed554-06ec-83fb-856d-36601abacd57" executionId="22342e57-6988-46dd-a17f-1d6e5f62601f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b132a76c-ea09-055d-9f92-c68a3d36e13b" executionId="61ccd372-49a1-4fd6-b9fd-5e339fc0d502" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fa401ce8-e7a3-23f6-bacd-fe17daa6c174" executionId="dc8064aa-6a0d-4a16-b783-49a7cbbd5f82" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="22342e57-6988-46dd-a17f-1d6e5f62601f" testId="13aed554-06ec-83fb-856d-36601abacd57" testName="Seu_Email_Deve_Ser_Unico" computerName="NOTEBOOK" duration="00:00:27.8222526" startTime="2012-01-13T22:30:56.5037739-02:00" endTime="2012-01-13T22:31:27.2805342-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="22342e57-6988-46dd-a17f-1d6e5f62601f">
+      <Output>
+        <ErrorInfo>
+          <Message>Initialization method Dominio.Tests.Ao_Criar_Um_Usuario.Setup threw exception. System.EntryPointNotFoundException: System.EntryPointNotFoundException: Entry point was not found..</Message>
+          <StackTrace>    at System.Data.Entity.IDbSet`1.Add(TEntity entity)
+   at Dominio.Tests.Ao_Criar_Um_Usuario.Setup() in E:\Junior\IVIA\Dojo\TestabilityEF4\Dominio.Tests\UsuarioTests.cs:line 22
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="61ccd372-49a1-4fd6-b9fd-5e339fc0d502" testId="b132a76c-ea09-055d-9f92-c68a3d36e13b" testName="Seu_Email_Deve_Estar_Em_Formato_Valido" computerName="NOTEBOOK" duration="00:00:02.9238502" startTime="2012-01-13T22:31:27.3705394-02:00" endTime="2012-01-13T22:31:30.4137134-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="61ccd372-49a1-4fd6-b9fd-5e339fc0d502">
+      <Output>
+        <ErrorInfo>
+          <Message>Initialization method Dominio.Tests.Ao_Criar_Um_Usuario.Setup threw exception. System.EntryPointNotFoundException: System.EntryPointNotFoundException: Entry point was not found..</Message>
+          <StackTrace>    at System.Data.Entity.IDbSet`1.Add(TEntity entity)
+   at Dominio.Tests.Ao_Criar_Um_Usuario.Setup() in E:\Junior\IVIA\Dojo\TestabilityEF4\Dominio.Tests\UsuarioTests.cs:line 22
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="dc8064aa-6a0d-4a16-b783-49a7cbbd5f82" testId="fa401ce8-e7a3-23f6-bacd-fe17daa6c174" testName="Nome_Senha_Email_Sao_Obrigatorios" computerName="NOTEBOOK" duration="00:00:03.3894566" startTime="2012-01-13T22:31:30.4527157-02:00" endTime="2012-01-13T22:31:33.9549160-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dc8064aa-6a0d-4a16-b783-49a7cbbd5f82">
+      <Output>
+        <ErrorInfo>
+          <Message>Initialization method Dominio.Tests.Ao_Criar_Um_Usuario.Setup threw exception. System.EntryPointNotFoundException: System.EntryPointNotFoundException: Entry point was not found..</Message>
+          <StackTrace>    at System.Data.Entity.IDbSet`1.Add(TEntity entity)
+   at Dominio.Tests.Ao_Criar_Um_Usuario.Setup() in E:\Junior\IVIA\Dojo\TestabilityEF4\Dominio.Tests\UsuarioTests.cs:line 22
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

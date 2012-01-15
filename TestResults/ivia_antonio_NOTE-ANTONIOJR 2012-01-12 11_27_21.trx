@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b0c0a08a-4834-46b9-9f35-8d7c5efb7663" name="ivia_antonio@NOTE-ANTONIOJR 2012-01-12 11:27:21" runUser="ETTUSA\ivia_antonio" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="903c2975-19eb-4005-b9bb-37cf8b14a64f">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="ivia_antonio_NOTE-ANTONIOJR 2012-01-12 11_27_21">
+      <DeploymentItem filename="C:\Ivia\dojo\TestabilityEF4\packages\EntityFramework.4.2.0.0\lib\net40\EntityFramework.dll" />
+      <DeploymentItem filename="C:\Ivia\dojo\TestabilityEF4\Dominio\bin\Debug\Dominio.dll" />
+      <DeploymentItem filename="C:\RedeInova\MyOrbe\RedeInova.Comum\bin\Debug\RedeInova.Comum.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-01-12T11:27:21.8991752-03:00" queuing="2012-01-12T11:27:26.2841752-03:00" start="2012-01-12T11:27:26.4421752-03:00" finish="2012-01-12T11:27:27.4281752-03:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Seu_Email_Deve_Ser_Unico" storage="c:\ivia\dojo\testabilityef4\dominio.tests\bin\debug\dominio.tests.dll" id="13aed554-06ec-83fb-856d-36601abacd57">
+      <Execution id="0d079222-7921-425d-9bd4-013584c01ca7" />
+      <TestMethod codeBase="C:/Ivia/dojo/TestabilityEF4/Dominio.Tests/bin/Debug/Dominio.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Dominio.Tests.Ao_Criar_Um_Usuario, Dominio.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Seu_Email_Deve_Ser_Unico" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="13aed554-06ec-83fb-856d-36601abacd57" executionId="0d079222-7921-425d-9bd4-013584c01ca7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="0d079222-7921-425d-9bd4-013584c01ca7" testId="13aed554-06ec-83fb-856d-36601abacd57" testName="Seu_Email_Deve_Ser_Unico" computerName="NOTE-ANTONIOJR" duration="00:00:00.1127064" startTime="2012-01-12T11:27:26.5451752-03:00" endTime="2012-01-12T11:27:27.3411752-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0d079222-7921-425d-9bd4-013584c01ca7">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Dominio.Tests.Ao_Criar_Um_Usuario.Seu_Email_Deve_Ser_Unico threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at Dominio.Servicos.GerenteUsuarios.CriarNovoUsuario(String emailJaExistente) in C:\Ivia\dojo\TestabilityEF4\Dominio\Servicos\GerenteUsuarios.cs:line 19
+   at Dominio.Tests.Ao_Criar_Um_Usuario.Seu_Email_Deve_Ser_Unico() in C:\Ivia\dojo\TestabilityEF4\Dominio.Tests\UsuarioTests.cs:line 33
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

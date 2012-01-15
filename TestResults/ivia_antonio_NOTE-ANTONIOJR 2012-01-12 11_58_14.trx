@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="84fd96bd-f35e-4eba-8868-271e6fc41a9f" name="ivia_antonio@NOTE-ANTONIOJR 2012-01-12 11:58:14" runUser="ETTUSA\ivia_antonio" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="903c2975-19eb-4005-b9bb-37cf8b14a64f">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="ivia_antonio_NOTE-ANTONIOJR 2012-01-12 11_58_14">
+      <DeploymentItem filename="C:\Ivia\dojo\TestabilityEF4\packages\EntityFramework.4.2.0.0\lib\net40\EntityFramework.dll" />
+      <DeploymentItem filename="C:\Ivia\dojo\TestabilityEF4\Dominio\bin\Debug\Dominio.dll" />
+      <DeploymentItem filename="C:\RedeInova\MyOrbe\RedeInova.Comum\bin\Debug\RedeInova.Comum.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-01-12T11:58:14.4981752-03:00" queuing="2012-01-12T11:58:14.5831752-03:00" start="2012-01-12T11:58:14.6051752-03:00" finish="2012-01-12T11:58:15.1231752-03:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="2" executed="2" passed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Seu_Email_Deve_Estar_Em_Formato_Valido" storage="c:\ivia\dojo\testabilityef4\dominio.tests\bin\debug\dominio.tests.dll" id="b132a76c-ea09-055d-9f92-c68a3d36e13b">
+      <Execution id="a210aa5a-f706-4d75-8dd0-877d3c8abcad" />
+      <TestMethod codeBase="C:/Ivia/dojo/TestabilityEF4/Dominio.Tests/bin/Debug/Dominio.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Dominio.Tests.Ao_Criar_Um_Usuario, Dominio.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Seu_Email_Deve_Estar_Em_Formato_Valido" />
+    </UnitTest>
+    <UnitTest name="Seu_Email_Deve_Ser_Unico" storage="c:\ivia\dojo\testabilityef4\dominio.tests\bin\debug\dominio.tests.dll" id="13aed554-06ec-83fb-856d-36601abacd57">
+      <Execution id="0e36d0e4-f2c6-4a9e-b9f3-eca291b18ad3" />
+      <TestMethod codeBase="C:/Ivia/dojo/TestabilityEF4/Dominio.Tests/bin/Debug/Dominio.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Dominio.Tests.Ao_Criar_Um_Usuario, Dominio.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Seu_Email_Deve_Ser_Unico" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="13aed554-06ec-83fb-856d-36601abacd57" executionId="0e36d0e4-f2c6-4a9e-b9f3-eca291b18ad3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b132a76c-ea09-055d-9f92-c68a3d36e13b" executionId="a210aa5a-f706-4d75-8dd0-877d3c8abcad" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="0e36d0e4-f2c6-4a9e-b9f3-eca291b18ad3" testId="13aed554-06ec-83fb-856d-36601abacd57" testName="Seu_Email_Deve_Ser_Unico" computerName="NOTE-ANTONIOJR" duration="00:00:00.0551242" startTime="2012-01-12T11:58:14.6281752-03:00" endTime="2012-01-12T11:58:15.0181752-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0e36d0e4-f2c6-4a9e-b9f3-eca291b18ad3">
+    </UnitTestResult>
+    <UnitTestResult executionId="a210aa5a-f706-4d75-8dd0-877d3c8abcad" testId="b132a76c-ea09-055d-9f92-c68a3d36e13b" testName="Seu_Email_Deve_Estar_Em_Formato_Valido" computerName="NOTE-ANTONIOJR" duration="00:00:00.0362238" startTime="2012-01-12T11:58:15.0291752-03:00" endTime="2012-01-12T11:58:15.0901752-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a210aa5a-f706-4d75-8dd0-877d3c8abcad">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Fail failed. Deveria ter falhado</Message>
+          <StackTrace>   at Dominio.Tests.Ao_Criar_Um_Usuario.Seu_Email_Deve_Estar_Em_Formato_Valido() in C:\Ivia\dojo\TestabilityEF4\Dominio.Tests\UsuarioTests.cs:line 58
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

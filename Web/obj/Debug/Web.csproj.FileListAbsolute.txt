@@ -1,0 +1,13 @@
+C:\IVIA\Dojo\TestabilityEF4\Web\bin\Web.dll
+C:\IVIA\Dojo\TestabilityEF4\Web\bin\Web.pdb
+C:\IVIA\Dojo\TestabilityEF4\Web\bin\EntityFramework.dll
+C:\IVIA\Dojo\TestabilityEF4\Web\bin\EntityFramework.xml
+C:\IVIA\Dojo\TestabilityEF4\Web\obj\Debug\ResolveAssemblyReference.cache
+C:\IVIA\Dojo\TestabilityEF4\Web\obj\Debug\Web.dll
+C:\IVIA\Dojo\TestabilityEF4\Web\obj\Debug\Web.pdb
+C:\IVIA\Dojo\TestabilityEF4\Web\bin\Dominio.dll
+C:\IVIA\Dojo\TestabilityEF4\Web\bin\Infra.dll
+C:\IVIA\Dojo\TestabilityEF4\Web\bin\RedeInova.Comum.dll
+C:\IVIA\Dojo\TestabilityEF4\Web\bin\Dominio.pdb
+C:\IVIA\Dojo\TestabilityEF4\Web\bin\Infra.pdb
+C:\IVIA\Dojo\TestabilityEF4\Web\bin\RedeInova.Comum.pdb

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="432f839a-a43a-41f3-a108-c5b6ff05468e" name="Junior@NOTEBOOK 2012-01-13 22:48:09" runUser="Notebook\Junior" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="903c2975-19eb-4005-b9bb-37cf8b14a64f">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Junior_NOTEBOOK 2012-01-13 22_48_09">
+      <DeploymentItem filename="C:\IVIA\Dojo\TestabilityEF4\Dominio\bin\Debug\Dominio.dll" />
+      <DeploymentItem filename="C:\IVIA\Dojo\TestabilityEF4\packages\EntityFramework.4.2.0.0\lib\net40\EntityFramework.dll" />
+      <DeploymentItem filename="C:\IVIA\Dojo\TestabilityEF4\IVIA.Comum\bin\Debug\RedeInova.Comum.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-01-13T22:48:09.9448833-02:00" queuing="2012-01-13T22:48:10.8199334-02:00" start="2012-01-13T22:48:10.9789425-02:00" finish="2012-01-13T22:48:11.8189905-02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="3" executed="3" passed="3" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Seu_Email_Deve_Ser_Unico" storage="c:\ivia\dojo\testabilityef4\dominio.tests\bin\debug\dominio.tests.dll" id="13aed554-06ec-83fb-856d-36601abacd57">
+      <Execution id="3a61b659-766f-4275-b449-2da74493728a" />
+      <TestMethod codeBase="C:/IVIA/Dojo/TestabilityEF4/Dominio.Tests/bin/Debug/Dominio.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Dominio.Tests.Ao_Criar_Um_Usuario, Dominio.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Seu_Email_Deve_Ser_Unico" />
+    </UnitTest>
+    <UnitTest name="Nome_Senha_Email_Sao_Obrigatorios" storage="c:\ivia\dojo\testabilityef4\dominio.tests\bin\debug\dominio.tests.dll" id="fa401ce8-e7a3-23f6-bacd-fe17daa6c174">
+      <Execution id="6a3a598c-951c-4a85-9a12-b2c839653cb5" />
+      <TestMethod codeBase="C:/IVIA/Dojo/TestabilityEF4/Dominio.Tests/bin/Debug/Dominio.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Dominio.Tests.Ao_Criar_Um_Usuario, Dominio.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Nome_Senha_Email_Sao_Obrigatorios" />
+    </UnitTest>
+    <UnitTest name="Seu_Email_Deve_Estar_Em_Formato_Valido" storage="c:\ivia\dojo\testabilityef4\dominio.tests\bin\debug\dominio.tests.dll" id="b132a76c-ea09-055d-9f92-c68a3d36e13b">
+      <Execution id="b6c90a79-8c82-4441-bbc0-8bec785dc147" />
+      <TestMethod codeBase="C:/IVIA/Dojo/TestabilityEF4/Dominio.Tests/bin/Debug/Dominio.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Dominio.Tests.Ao_Criar_Um_Usuario, Dominio.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Seu_Email_Deve_Estar_Em_Formato_Valido" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="13aed554-06ec-83fb-856d-36601abacd57" executionId="3a61b659-766f-4275-b449-2da74493728a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b132a76c-ea09-055d-9f92-c68a3d36e13b" executionId="b6c90a79-8c82-4441-bbc0-8bec785dc147" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fa401ce8-e7a3-23f6-bacd-fe17daa6c174" executionId="6a3a598c-951c-4a85-9a12-b2c839653cb5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="3a61b659-766f-4275-b449-2da74493728a" testId="13aed554-06ec-83fb-856d-36601abacd57" testName="Seu_Email_Deve_Ser_Unico" computerName="NOTEBOOK" duration="00:00:00.0701262" startTime="2012-01-13T22:48:11.0169447-02:00" endTime="2012-01-13T22:48:11.6829828-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3a61b659-766f-4275-b449-2da74493728a">
+    </UnitTestResult>
+    <UnitTestResult executionId="b6c90a79-8c82-4441-bbc0-8bec785dc147" testId="b132a76c-ea09-055d-9f92-c68a3d36e13b" testName="Seu_Email_Deve_Estar_Em_Formato_Valido" computerName="NOTEBOOK" duration="00:00:00.0054440" startTime="2012-01-13T22:48:11.7029839-02:00" endTime="2012-01-13T22:48:11.7189848-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b6c90a79-8c82-4441-bbc0-8bec785dc147">
+    </UnitTestResult>
+    <UnitTestResult executionId="6a3a598c-951c-4a85-9a12-b2c839653cb5" testId="fa401ce8-e7a3-23f6-bacd-fe17daa6c174" testName="Nome_Senha_Email_Sao_Obrigatorios" computerName="NOTEBOOK" duration="00:00:00.0035478" startTime="2012-01-13T22:48:11.7339857-02:00" endTime="2012-01-13T22:48:11.7519867-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6a3a598c-951c-4a85-9a12-b2c839653cb5">
+    </UnitTestResult>
+  </Results>
+</TestRun>
