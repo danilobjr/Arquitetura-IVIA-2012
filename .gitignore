@@ -1,0 +1,10 @@
+bin/
+obj/
+Tools/
+*.suo
+*.user
+_ReSharper.TestabilityEF4/
+
+*.exe
+*.pdb
+*.[Cc]ache
