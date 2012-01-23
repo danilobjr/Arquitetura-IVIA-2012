@@ -1,5 +1,0 @@
-C:\RedeInova\MyOrbe\RedeInova.Comum\bin\Debug\RedeInova.Comum.dll
-C:\RedeInova\MyOrbe\RedeInova.Comum\bin\Debug\RedeInova.Comum.pdb
-C:\RedeInova\MyOrbe\RedeInova.Comum\obj\Debug\ResolveAssemblyReference.cache
-C:\RedeInova\MyOrbe\RedeInova.Comum\obj\Debug\RedeInova.Comum.dll
-C:\RedeInova\MyOrbe\RedeInova.Comum\obj\Debug\RedeInova.Comum.pdb
