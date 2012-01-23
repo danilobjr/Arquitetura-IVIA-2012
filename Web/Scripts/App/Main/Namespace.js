@@ -1,4 +1,4 @@
 ﻿ArquiteturaDotNet2012 = {
-    Componentes: {}
+    Componentes: {},
     Script: {}
 };
